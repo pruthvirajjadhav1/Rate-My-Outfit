@@ -20,7 +20,7 @@ function App() {
     formData.append('file', file);
 
     try {
-      const response = await fetch('http://localhost:4000/api/analyze', {
+      const response = await fetch('https://rate-my-outfit.onrender.com/api/analyze', {
         method: 'POST',
         body: formData,
       });
