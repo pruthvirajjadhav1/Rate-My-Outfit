@@ -1,0 +1,21 @@
+.analysis-results {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.analysis-results h2 {
+  color: #007bff;
+}
+
+.analysis-results p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.analysis-results strong {
+  color: #0056b3;
+}
